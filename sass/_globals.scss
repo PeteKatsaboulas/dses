@@ -270,6 +270,10 @@ nav{
             padding:20px 20px 20px 30px;
             a{
                 color:white;
+                @include transition(color 0.8s $easeOutExpo);
+                &:hover{
+                    color:$yellow;
+                }
                 &.account-link{  
                     color:rgba(255,255,255,0.5);  
                 }
