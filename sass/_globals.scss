@@ -313,7 +313,7 @@ nav{
 
 
 footer{
-    background:$yellow;
+    background:#202020;
     padding-bottom:50px;
     text-align:center;
     .social-links{
@@ -347,15 +347,15 @@ footer{
             padding:0 10px;
             font-size:14px;
             font-weight:500;
-            border-right:1px solid rgba(0,0,0,0.2);
+            border-right:1px solid rgba(255,255,255,0.2);
             &:last-child{
                 border-right:0;
             }
             a{
-                color:$primary;
+                color:rgba(255,255,255,1);
                 @include transition(color 0.8s $easeOutExpo);
                 &:hover{
-                    color:rgba(0,0,0,0.5);
+                    color:$yellow;
                 }
             }
         }
@@ -366,7 +366,7 @@ footer{
     .copyright{
         display:inline-block;
         font-size:13px;
-        color:rgba(0,0,0,0.5);
+        color:rgba(255,255,255,0.35);
         margin-top:15px;
 
     }

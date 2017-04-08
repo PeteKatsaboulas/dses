@@ -370,7 +370,7 @@ nav ul .sub-menu li a {
 }
 
 footer {
-  background: #ebcd41;
+  background: #202020;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -410,13 +410,13 @@ footer .footer-menu li {
   padding: 0 10px;
   font-size: 14px;
   font-weight: 500;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 footer .footer-menu li:last-child {
   border-right: 0;
 }
 footer .footer-menu li a {
-  color: #252525;
+  color: white;
   -webkit-transition: color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -ms-transition: color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
@@ -424,7 +424,7 @@ footer .footer-menu li a {
   transition: color 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 footer .footer-menu li a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: #ebcd41;
 }
 footer .logo-footer {
   display: inline-block;
@@ -432,7 +432,7 @@ footer .logo-footer {
 footer .copyright {
   display: inline-block;
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.35);
   margin-top: 15px;
 }
 
